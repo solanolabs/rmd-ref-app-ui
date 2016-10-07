@@ -1,6 +1,6 @@
 ## RM&D Reference Application UI Microservice
 
-### Getting Started 
+### Getting Started
 
 #### Accessing RM&D Application in Cloud Foundry
 You can view the [RMD Application](https://rmd-ref-app.run.aws-usw02-pr.ice.predix.io) in your browser using these login credentials
