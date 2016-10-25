@@ -47,6 +47,8 @@
   "resolutions": {
     "polymer": "~v1.1.5",
     "px-typography-design": "~0.3.1",
-    "px": "v1.0.5"
+    "px": "v1.0.5",
+    "px-defaults-design": "^0.3.0",
+    "px-functions-design": "~1.0.0"
   }
 }
