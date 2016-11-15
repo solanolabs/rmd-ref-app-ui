@@ -1,7 +1,1204 @@
 [
     {
+        "uri": "/asset/compressor-2001",
+        "description": "Bently Compressor 2001",
+        "obsolete": false,
+        "empty": false,
+        "assetId": "compressor-2001",
+        "parent": "/asset/compressor-1234",
+        "specification": "/classification/GE_COMPRESSOR_CYLINDER",
+        "propagateState": false,
+        "group": "/group/plant-richmond-refinery",
+        "attributes": {
+            "machineControllerId": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "/asset/Bently.Nevada.3500.Rack2001"
+                ]
+            },
+            "summaryMeter": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "crank-frame-velocity",
+                    "crank-frame-compressionratio"
+                ]
+            }
+        },
+        "tags": [
+        ],
+        "assetMeter": {
+            "crank-frame-compressionratio": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-compressionratio",
+                "sourceTagId": "Compressor-2001:CompressionRatio",
+                "meterDatasource": {
+                    "nodeName": "CompressionRatio",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-123",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2001:CompressionRatio"
+                },
+                "isManual": false,
+                "outputMinimum": 2.5,
+                "outputMaximum": 3.1
+            },
+            "crank-frame-dischargepressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-dischargepressure",
+                "sourceTagId": "Compressor-2001:DischargePressure",
+                "meterDatasource": {
+                    "nodeName": "DischgPressure",
+                    "isKpi": "true",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2001:DischargePressure",
+                    "meterExtensionsUri": "/asset/compressor-2001.meter-extensions.crank-frame-discharge-pressure"
+                },
+                "isManual": false,
+                "outputMinimum": 1,
+                "outputMaximum": 22
+            },
+            "crank-frame-suctionpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-suctionpressure",
+                "sourceTagId": "Compressor-2001:SuctionPressure",
+                "meterDatasource": {
+                    "nodeName": "SuctPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2001:SuctionPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 0.1,
+                "outputMaximum": 0.2
+            },
+            "crank-frame-maxpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-maxpressure",
+                "sourceTagId": "Compressor-2001:MaximumPressure",
+                "meterDatasource": {
+                    "nodeName": "MaxPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2001:MaximumPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 21,
+                "outputMaximum": 26
+            },
+            "crank-frame-minpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-minpressure",
+                "sourceTagId": "Compressor-2001:MinimumPressure",
+                "meterDatasource": {
+                    "nodeName": "MinPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2001:MinimumPressure"
+                },
+                "isManual": false
+            },
+            "crank-frame-velocity": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-velocity",
+                "sourceTagId": "Compressor-2001:Velocity",
+                "meterDatasource": {
+                    "nodeName": "Velocity",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2001:Velocity"
+                },
+                "isManual": false,
+                "outputMinimum": 0,
+                "outputMaximum": 0.07
+            },
+            "crank-frame-temperature": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-temperature",
+                "sourceTagId": "Compressor-2001:Temperature",
+                "meterDatasource": {
+                    "nodeName": "Temperature",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2001:Temperature"
+                },
+                "isManual": false,
+                "outputMinimum": 65,
+                "outputMaximum": 81
+            }
+        }
+    },
+    {
+        "uri": "/asset/compressor-2002",
+        "description": "Bently Compressor 2002",
+        "obsolete": false,
+        "empty": false,
+        "assetId": "compressor-2002",
+        "parent": "/asset/compressor-1234",
+        "specification": "/classification/GE_COMPRESSOR_CYLINDER",
+        "propagateState": false,
+        "group": "/group/plant-richmond-refinery",
+        "attributes": {
+            "machineControllerId": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "/asset/Bently.Nevada.3500.Rack2002"
+                ]
+            },
+            "summaryMeter": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "crank-frame-velocity",
+                    "crank-frame-compressionratio"
+                ]
+            }
+        },
+        "tags": [
+        ],
+        "assetMeter": {
+            "crank-frame-compressionratio": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-compressionratio",
+                "sourceTagId": "Compressor-2002:CompressionRatio",
+                "meterDatasource": {
+                    "nodeName": "CompressionRatio",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-123",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2002:CompressionRatio"
+                },
+                "isManual": false,
+                "outputMinimum": 2.5,
+                "outputMaximum": 3.1
+            },
+            "crank-frame-dischargepressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-dischargepressure",
+                "sourceTagId": "Compressor-2002:DischargePressure",
+                "meterDatasource": {
+                    "nodeName": "DischgPressure",
+                    "isKpi": "true",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2002:DischargePressure",
+                    "meterExtensionsUri": "/asset/compressor-2002.meter-extensions.crank-frame-discharge-pressure"
+                },
+                "isManual": false,
+                "outputMinimum": 1,
+                "outputMaximum": 22
+            },
+            "crank-frame-suctionpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-suctionpressure",
+                "sourceTagId": "Compressor-2002:SuctionPressure",
+                "meterDatasource": {
+                    "nodeName": "SuctPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2002:SuctionPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 0.1,
+                "outputMaximum": 0.2
+            },
+            "crank-frame-maxpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-maxpressure",
+                "sourceTagId": "Compressor-2002:MaximumPressure",
+                "meterDatasource": {
+                    "nodeName": "MaxPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2002:MaximumPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 21,
+                "outputMaximum": 26
+            },
+            "crank-frame-minpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-minpressure",
+                "sourceTagId": "Compressor-2002:MinimumPressure",
+                "meterDatasource": {
+                    "nodeName": "MinPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2002:MinimumPressure"
+                },
+                "isManual": false
+            },
+            "crank-frame-velocity": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-velocity",
+                "sourceTagId": "Compressor-2002:Velocity",
+                "meterDatasource": {
+                    "nodeName": "Velocity",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2002:Velocity"
+                },
+                "isManual": false,
+                "outputMinimum": 0,
+                "outputMaximum": 0.07
+            },
+            "crank-frame-temperature": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-temperature",
+                "sourceTagId": "Compressor-2002:Temperature",
+                "meterDatasource": {
+                    "nodeName": "Temperature",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2002:Temperature"
+                },
+                "isManual": false,
+                "outputMinimum": 65,
+                "outputMaximum": 81
+            }
+        }
+    },
+    {
+        "uri": "/asset/compressor-2003",
+        "description": "Bently Compressor 2003",
+        "obsolete": false,
+        "empty": false,
+        "assetId": "compressor-2003",
+        "parent": "/asset/compressor-1234",
+        "specification": "/classification/GE_COMPRESSOR_CYLINDER",
+        "propagateState": false,
+        "group": "/group/plant-richmond-refinery",
+        "attributes": {
+            "machineControllerId": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "/asset/Bently.Nevada.3500.Rack2003"
+                ]
+            },
+            "summaryMeter": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "crank-frame-velocity",
+                    "crank-frame-compressionratio"
+                ]
+            }
+        },
+        "tags": [
+        ],
+        "assetMeter": {
+            "crank-frame-compressionratio": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-compressionratio",
+                "sourceTagId": "Compressor-2003:CompressionRatio",
+                "meterDatasource": {
+                    "nodeName": "CompressionRatio",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-123",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2003:CompressionRatio"
+                },
+                "isManual": false,
+                "outputMinimum": 2.5,
+                "outputMaximum": 3.1
+            },
+            "crank-frame-dischargepressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-dischargepressure",
+                "sourceTagId": "Compressor-2003:DischargePressure",
+                "meterDatasource": {
+                    "nodeName": "DischgPressure",
+                    "isKpi": "true",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2003:DischargePressure",
+                    "meterExtensionsUri": "/asset/compressor-2003.meter-extensions.crank-frame-discharge-pressure"
+                },
+                "isManual": false,
+                "outputMinimum": 1,
+                "outputMaximum": 22
+            },
+            "crank-frame-suctionpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-suctionpressure",
+                "sourceTagId": "Compressor-2003:SuctionPressure",
+                "meterDatasource": {
+                    "nodeName": "SuctPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2003:SuctionPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 0.1,
+                "outputMaximum": 0.2
+            },
+            "crank-frame-maxpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-maxpressure",
+                "sourceTagId": "Compressor-2003:MaximumPressure",
+                "meterDatasource": {
+                    "nodeName": "MaxPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2003:MaximumPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 21,
+                "outputMaximum": 26
+            },
+            "crank-frame-minpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-minpressure",
+                "sourceTagId": "Compressor-2003:MinimumPressure",
+                "meterDatasource": {
+                    "nodeName": "MinPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2003:MinimumPressure"
+                },
+                "isManual": false
+            },
+            "crank-frame-velocity": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-velocity",
+                "sourceTagId": "Compressor-2003:Velocity",
+                "meterDatasource": {
+                    "nodeName": "Velocity",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2003:Velocity"
+                },
+                "isManual": false,
+                "outputMinimum": 0,
+                "outputMaximum": 0.07
+            },
+            "crank-frame-temperature": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-temperature",
+                "sourceTagId": "Compressor-2003:Temperature",
+                "meterDatasource": {
+                    "nodeName": "Temperature",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2003:Temperature"
+                },
+                "isManual": false,
+                "outputMinimum": 65,
+                "outputMaximum": 81
+            }
+        }
+    },
+    {
+        "uri": "/asset/compressor-2004",
+        "description": "Bently Compressor 2004",
+        "obsolete": false,
+        "empty": false,
+        "assetId": "compressor-2004",
+        "parent": "/asset/compressor-1234",
+        "specification": "/classification/GE_COMPRESSOR_CYLINDER",
+        "propagateState": false,
+        "group": "/group/plant-richmond-refinery",
+        "attributes": {
+            "machineControllerId": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "/asset/Bently.Nevada.3500.Rack2004"
+                ]
+            },
+            "summaryMeter": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "crank-frame-velocity",
+                    "crank-frame-compressionratio"
+                ]
+            }
+        },
+        "tags": [
+        ],
+        "assetMeter": {
+            "crank-frame-compressionratio": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-compressionratio",
+                "sourceTagId": "Compressor-2004:CompressionRatio",
+                "meterDatasource": {
+                    "nodeName": "CompressionRatio",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-123",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2004:CompressionRatio"
+                },
+                "isManual": false,
+                "outputMinimum": 2.5,
+                "outputMaximum": 3.1
+            },
+            "crank-frame-dischargepressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-dischargepressure",
+                "sourceTagId": "Compressor-2004:DischargePressure",
+                "meterDatasource": {
+                    "nodeName": "DischgPressure",
+                    "isKpi": "true",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2004:DischargePressure",
+                    "meterExtensionsUri": "/asset/compressor-2004.meter-extensions.crank-frame-discharge-pressure"
+                },
+                "isManual": false,
+                "outputMinimum": 1,
+                "outputMaximum": 22
+            },
+            "crank-frame-suctionpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-suctionpressure",
+                "sourceTagId": "Compressor-2004:SuctionPressure",
+                "meterDatasource": {
+                    "nodeName": "SuctPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2004:SuctionPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 0.1,
+                "outputMaximum": 0.2
+            },
+            "crank-frame-maxpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-maxpressure",
+                "sourceTagId": "Compressor-2004:MaximumPressure",
+                "meterDatasource": {
+                    "nodeName": "MaxPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2004:MaximumPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 21,
+                "outputMaximum": 26
+            },
+            "crank-frame-minpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-minpressure",
+                "sourceTagId": "Compressor-2004:MinimumPressure",
+                "meterDatasource": {
+                    "nodeName": "MinPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2004:MinimumPressure"
+                },
+                "isManual": false
+            },
+            "crank-frame-velocity": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-velocity",
+                "sourceTagId": "Compressor-2004:Velocity",
+                "meterDatasource": {
+                    "nodeName": "Velocity",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2004:Velocity"
+                },
+                "isManual": false,
+                "outputMinimum": 0,
+                "outputMaximum": 0.07
+            },
+            "crank-frame-temperature": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-temperature",
+                "sourceTagId": "Compressor-2004:Temperature",
+                "meterDatasource": {
+                    "nodeName": "Temperature",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2004:Temperature"
+                },
+                "isManual": false,
+                "outputMinimum": 65,
+                "outputMaximum": 81
+            }
+        }
+    },
+    {
+        "uri": "/asset/compressor-2005",
+        "description": "Bently Compressor 2005",
+        "obsolete": false,
+        "empty": false,
+        "assetId": "compressor-2005",
+        "parent": "/asset/compressor-1234",
+        "specification": "/classification/GE_COMPRESSOR_CYLINDER",
+        "propagateState": false,
+        "group": "/group/plant-richmond-refinery",
+        "attributes": {
+            "machineControllerId": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "/asset/Bently.Nevada.3500.Rack2005"
+                ]
+            },
+            "summaryMeter": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "crank-frame-velocity",
+                    "crank-frame-compressionratio"
+                ]
+            }
+        },
+        "tags": [
+        ],
+        "assetMeter": {
+            "crank-frame-compressionratio": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-compressionratio",
+                "sourceTagId": "Compressor-2005:CompressionRatio",
+                "meterDatasource": {
+                    "nodeName": "CompressionRatio",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-123",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2005:CompressionRatio"
+                },
+                "isManual": false,
+                "outputMinimum": 2.5,
+                "outputMaximum": 3.1
+            },
+            "crank-frame-dischargepressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-dischargepressure",
+                "sourceTagId": "Compressor-2005:DischargePressure",
+                "meterDatasource": {
+                    "nodeName": "DischgPressure",
+                    "isKpi": "true",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2005:DischargePressure",
+                    "meterExtensionsUri": "/asset/compressor-2005.meter-extensions.crank-frame-discharge-pressure"
+                },
+                "isManual": false,
+                "outputMinimum": 1,
+                "outputMaximum": 22
+            },
+            "crank-frame-suctionpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-suctionpressure",
+                "sourceTagId": "Compressor-2005:SuctionPressure",
+                "meterDatasource": {
+                    "nodeName": "SuctPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2005:SuctionPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 0.1,
+                "outputMaximum": 0.2
+            },
+            "crank-frame-maxpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-maxpressure",
+                "sourceTagId": "Compressor-2005:MaximumPressure",
+                "meterDatasource": {
+                    "nodeName": "MaxPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2005:MaximumPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 21,
+                "outputMaximum": 26
+            },
+            "crank-frame-minpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-minpressure",
+                "sourceTagId": "Compressor-2005:MinimumPressure",
+                "meterDatasource": {
+                    "nodeName": "MinPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2005:MinimumPressure"
+                },
+                "isManual": false
+            },
+            "crank-frame-velocity": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-velocity",
+                "sourceTagId": "Compressor-2005:Velocity",
+                "meterDatasource": {
+                    "nodeName": "Velocity",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2005:Velocity"
+                },
+                "isManual": false,
+                "outputMinimum": 0,
+                "outputMaximum": 0.07
+            },
+            "crank-frame-temperature": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-temperature",
+                "sourceTagId": "Compressor-2005:Temperature",
+                "meterDatasource": {
+                    "nodeName": "Temperature",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2005:Temperature"
+                },
+                "isManual": false,
+                "outputMinimum": 65,
+                "outputMaximum": 81
+            }
+        }
+    },
+    {
+        "uri": "/asset/compressor-2006",
+        "description": "Bently Compressor 2006",
+        "obsolete": false,
+        "empty": false,
+        "assetId": "compressor-2006",
+        "parent": "/asset/compressor-1234",
+        "specification": "/classification/GE_COMPRESSOR_CYLINDER",
+        "propagateState": false,
+        "group": "/group/plant-richmond-refinery",
+        "attributes": {
+            "machineControllerId": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "/asset/Bently.Nevada.3500.Rack2006"
+                ]
+            },
+            "summaryMeter": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "crank-frame-velocity",
+                    "crank-frame-compressionratio"
+                ]
+            }
+        },
+        "tags": [
+        ],
+        "assetMeter": {
+            "crank-frame-compressionratio": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-compressionratio",
+                "sourceTagId": "Compressor-2006:CompressionRatio",
+                "meterDatasource": {
+                    "nodeName": "CompressionRatio",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-123",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2006:CompressionRatio"
+                },
+                "isManual": false,
+                "outputMinimum": 2.5,
+                "outputMaximum": 3.1
+            },
+            "crank-frame-dischargepressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-dischargepressure",
+                "sourceTagId": "Compressor-2006:DischargePressure",
+                "meterDatasource": {
+                    "nodeName": "DischgPressure",
+                    "isKpi": "true",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2006:DischargePressure",
+                    "meterExtensionsUri": "/asset/compressor-2006.meter-extensions.crank-frame-discharge-pressure"
+                },
+                "isManual": false,
+                "outputMinimum": 1,
+                "outputMaximum": 22
+            },
+            "crank-frame-suctionpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-suctionpressure",
+                "sourceTagId": "Compressor-2006:SuctionPressure",
+                "meterDatasource": {
+                    "nodeName": "SuctPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2006:SuctionPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 0.1,
+                "outputMaximum": 0.2
+            },
+            "crank-frame-maxpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-maxpressure",
+                "sourceTagId": "Compressor-2006:MaximumPressure",
+                "meterDatasource": {
+                    "nodeName": "MaxPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2006:MaximumPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 21,
+                "outputMaximum": 26
+            },
+            "crank-frame-minpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-minpressure",
+                "sourceTagId": "Compressor-2006:MinimumPressure",
+                "meterDatasource": {
+                    "nodeName": "MinPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2006:MinimumPressure"
+                },
+                "isManual": false
+            },
+            "crank-frame-velocity": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-velocity",
+                "sourceTagId": "Compressor-2006:Velocity",
+                "meterDatasource": {
+                    "nodeName": "Velocity",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2006:Velocity"
+                },
+                "isManual": false,
+                "outputMinimum": 0,
+                "outputMaximum": 0.07
+            },
+            "crank-frame-temperature": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-temperature",
+                "sourceTagId": "Compressor-2006:Temperature",
+                "meterDatasource": {
+                    "nodeName": "Temperature",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2006:Temperature"
+                },
+                "isManual": false,
+                "outputMinimum": 65,
+                "outputMaximum": 81
+            }
+        }
+    },
+    {
+        "uri": "/asset/compressor-2007",
+        "description": "Bently Compressor 2007",
+        "obsolete": false,
+        "empty": false,
+        "assetId": "compressor-2007",
+        "parent": "/asset/compressor-1234",
+        "specification": "/classification/GE_COMPRESSOR_CYLINDER",
+        "propagateState": false,
+        "group": "/group/plant-richmond-refinery",
+        "attributes": {
+            "machineControllerId": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "/asset/Bently.Nevada.3500.Rack2007"
+                ]
+            },
+            "summaryMeter": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "crank-frame-velocity",
+                    "crank-frame-compressionratio"
+                ]
+            }
+        },
+        "tags": [
+        ],
+        "assetMeter": {
+            "crank-frame-compressionratio": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-compressionratio",
+                "sourceTagId": "Compressor-2007:CompressionRatio",
+                "meterDatasource": {
+                    "nodeName": "CompressionRatio",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-123",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2007:CompressionRatio"
+                },
+                "isManual": false,
+                "outputMinimum": 2.5,
+                "outputMaximum": 3.1
+            },
+            "crank-frame-dischargepressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-dischargepressure",
+                "sourceTagId": "Compressor-2007:DischargePressure",
+                "meterDatasource": {
+                    "nodeName": "DischgPressure",
+                    "isKpi": "true",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2007:DischargePressure",
+                    "meterExtensionsUri": "/asset/compressor-2007.meter-extensions.crank-frame-discharge-pressure"
+                },
+                "isManual": false,
+                "outputMinimum": 1,
+                "outputMaximum": 22
+            },
+            "crank-frame-suctionpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-suctionpressure",
+                "sourceTagId": "Compressor-2007:SuctionPressure",
+                "meterDatasource": {
+                    "nodeName": "SuctPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2007:SuctionPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 0.1,
+                "outputMaximum": 0.2
+            },
+            "crank-frame-maxpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-maxpressure",
+                "sourceTagId": "Compressor-2007:MaximumPressure",
+                "meterDatasource": {
+                    "nodeName": "MaxPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2007:MaximumPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 21,
+                "outputMaximum": 26
+            },
+            "crank-frame-minpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-minpressure",
+                "sourceTagId": "Compressor-2007:MinimumPressure",
+                "meterDatasource": {
+                    "nodeName": "MinPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2007:MinimumPressure"
+                },
+                "isManual": false
+            },
+            "crank-frame-velocity": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-velocity",
+                "sourceTagId": "Compressor-2007:Velocity",
+                "meterDatasource": {
+                    "nodeName": "Velocity",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2007:Velocity"
+                },
+                "isManual": false,
+                "outputMinimum": 0,
+                "outputMaximum": 0.07
+            },
+            "crank-frame-temperature": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-temperature",
+                "sourceTagId": "Compressor-2007:Temperature",
+                "meterDatasource": {
+                    "nodeName": "Temperature",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2007:Temperature"
+                },
+                "isManual": false,
+                "outputMinimum": 65,
+                "outputMaximum": 81
+            }
+        }
+    },
+    {
+        "uri": "/asset/compressor-2008",
+        "description": "Bently Compressor 2008",
+        "obsolete": false,
+        "empty": false,
+        "assetId": "compressor-2008",
+        "parent": "/asset/compressor-1234",
+        "specification": "/classification/GE_COMPRESSOR_CYLINDER",
+        "propagateState": false,
+        "group": "/group/plant-richmond-refinery",
+        "attributes": {
+            "machineControllerId": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "/asset/Bently.Nevada.3500.Rack2008"
+                ]
+            },
+            "summaryMeter": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "crank-frame-velocity",
+                    "crank-frame-compressionratio"
+                ]
+            }
+        },
+        "tags": [
+        ],
+        "assetMeter": {
+            "crank-frame-compressionratio": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-compressionratio",
+                "sourceTagId": "Compressor-2008:CompressionRatio",
+                "meterDatasource": {
+                    "nodeName": "CompressionRatio",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-123",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2008:CompressionRatio"
+                },
+                "isManual": false,
+                "outputMinimum": 2.5,
+                "outputMaximum": 3.1
+            },
+            "crank-frame-dischargepressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-dischargepressure",
+                "sourceTagId": "Compressor-2008:DischargePressure",
+                "meterDatasource": {
+                    "nodeName": "DischgPressure",
+                    "isKpi": "true",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2008:DischargePressure",
+                    "meterExtensionsUri": "/asset/compressor-2008.meter-extensions.crank-frame-discharge-pressure"
+                },
+                "isManual": false,
+                "outputMinimum": 1,
+                "outputMaximum": 22
+            },
+            "crank-frame-suctionpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-suctionpressure",
+                "sourceTagId": "Compressor-2008:SuctionPressure",
+                "meterDatasource": {
+                    "nodeName": "SuctPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2008:SuctionPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 0.1,
+                "outputMaximum": 0.2
+            },
+            "crank-frame-maxpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-maxpressure",
+                "sourceTagId": "Compressor-2008:MaximumPressure",
+                "meterDatasource": {
+                    "nodeName": "MaxPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2008:MaximumPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 21,
+                "outputMaximum": 26
+            },
+            "crank-frame-minpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-minpressure",
+                "sourceTagId": "Compressor-2008:MinimumPressure",
+                "meterDatasource": {
+                    "nodeName": "MinPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2008:MinimumPressure"
+                },
+                "isManual": false
+            },
+            "crank-frame-velocity": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-velocity",
+                "sourceTagId": "Compressor-2008:Velocity",
+                "meterDatasource": {
+                    "nodeName": "Velocity",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2008:Velocity"
+                },
+                "isManual": false,
+                "outputMinimum": 0,
+                "outputMaximum": 0.07
+            },
+            "crank-frame-temperature": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-temperature",
+                "sourceTagId": "Compressor-2008:Temperature",
+                "meterDatasource": {
+                    "nodeName": "Temperature",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2008:Temperature"
+                },
+                "isManual": false,
+                "outputMinimum": 65,
+                "outputMaximum": 81
+            }
+        }
+    },
+    {
+        "uri": "/asset/compressor-2009",
+        "description": "Bently Compressor 2009",
+        "obsolete": false,
+        "empty": false,
+        "assetId": "compressor-2009",
+        "parent": "/asset/compressor-1234",
+        "specification": "/classification/GE_COMPRESSOR_CYLINDER",
+        "propagateState": false,
+        "group": "/group/plant-richmond-refinery",
+        "attributes": {
+            "machineControllerId": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "/asset/Bently.Nevada.3500.Rack2009"
+                ]
+            },
+            "summaryMeter": {
+                "type": "string",
+                "enumeration": [
+                ],
+                "value": [
+                    "crank-frame-velocity",
+                    "crank-frame-compressionratio"
+                ]
+            }
+        },
+        "tags": [
+        ],
+        "assetMeter": {
+            "crank-frame-compressionratio": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-compressionratio",
+                "sourceTagId": "Compressor-2009:CompressionRatio",
+                "meterDatasource": {
+                    "nodeName": "CompressionRatio",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-123",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2009:CompressionRatio"
+                },
+                "isManual": false,
+                "outputMinimum": 2.5,
+                "outputMaximum": 3.1
+            },
+            "crank-frame-dischargepressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-dischargepressure",
+                "sourceTagId": "Compressor-2009:DischargePressure",
+                "meterDatasource": {
+                    "nodeName": "DischgPressure",
+                    "isKpi": "true",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2009:DischargePressure",
+                    "meterExtensionsUri": "/asset/compressor-2009.meter-extensions.crank-frame-discharge-pressure"
+                },
+                "isManual": false,
+                "outputMinimum": 1,
+                "outputMaximum": 22
+            },
+            "crank-frame-suctionpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-suctionpressure",
+                "sourceTagId": "Compressor-2009:SuctionPressure",
+                "meterDatasource": {
+                    "nodeName": "SuctPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2009:SuctionPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 0.1,
+                "outputMaximum": 0.2
+            },
+            "crank-frame-maxpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-maxpressure",
+                "sourceTagId": "Compressor-2009:MaximumPressure",
+                "meterDatasource": {
+                    "nodeName": "MaxPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2009:MaximumPressure"
+                },
+                "isManual": false,
+                "outputMinimum": 21,
+                "outputMaximum": 26
+            },
+            "crank-frame-minpressure": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-minpressure",
+                "sourceTagId": "Compressor-2009:MinimumPressure",
+                "meterDatasource": {
+                    "nodeName": "MinPressure",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2009:MinimumPressure"
+                },
+                "isManual": false
+            },
+            "crank-frame-velocity": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-velocity",
+                "sourceTagId": "Compressor-2009:Velocity",
+                "meterDatasource": {
+                    "nodeName": "Velocity",
+                    "isKpi": "true",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2009:Velocity"
+                },
+                "isManual": false,
+                "outputMinimum": 0,
+                "outputMaximum": 0.07
+            },
+            "crank-frame-temperature": {
+                "@type": "AssetMeter",
+                "uri": "/meter/crank-frame-temperature",
+                "sourceTagId": "Compressor-2009:Temperature",
+                "meterDatasource": {
+                    "nodeName": "Temperature",
+                    "fieldUri": "asset/adh-field-456",
+                    "controllerUri": "/sample/machine/controller",
+                    "machineUri": "/Compressor-2009:Temperature"
+                },
+                "isManual": false,
+                "outputMinimum": 65,
+                "outputMaximum": 81
+            }
+        }
+    },
+    {
         "uri": "/asset/compressor-2015",
-        "description": "Bently Compressor",
+        "description": "Bently Compressor 2015",
         "obsolete": false,
         "empty": false,
         "assetId": "compressor-2015",
